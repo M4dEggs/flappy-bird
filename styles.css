@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500;700&display=swap');
+
+
+
+body{
+    width: 1520px;
+    height: 740px;
+    background-image: linear-gradient(#6E45E1,#89D4CF);
+    overflow: hidden;
+}
+
+
+.start{
+    position: absolute;
+    top: 450px;
+    left: 702px;
+    font-family:Asap,sans-serif ;
+    font-size: 50px;
+    border: 2px solid transparent;
+    border-radius: 5px 25px;
+    box-shadow: 3px 6px;
+}
+
+.jump{
+    position: absolute;
+    background-color: white;
+    top: 300px;
+    left: 607px;
+    width: 320px;
+    height: 300px;
+    border: 0px;
+    display: none;
+    opacity: 0;
+
+}
+
+.reset1{
+    position: absolute;
+    background-color: white;
+    top: 230px;
+    left: 200px;  
+    display:none;
+}
+
+.bird{
+    position: absolute;
+    top: 200px;
+    left: 680px;
+    width: 80px;
+    background-color: transparent;
+    transform: rotate(-40deg);
+    
+}
+
+.road{
+    position: absolute;
+    top: 600px;
+    left: 499px;
+}
+
+.rect{
+    position: absolute;
+    top: 50px;
+    left: 1100px;
+    height: 150px;
+    width: 1px;
+    opacity: 0;
+}
+
+
+.pipe3{
+    position: absolute;
+    top: -350px;
+    left: 1100px;
+    width: 100px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.pipe1{   
+    position: absolute;
+    top: 200px;
+    left: 1100px;
+    width: 100px;
+    height: 400px;
+    background-color: transparent;
+}
+
+.score-board{
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 690px;
+    width: 140px;
+    height: 35px;
+    border: 3px solid black;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.point-inboard{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: transparent;
+    position: absolute;
+    top: 38px;
+    left: 800px;
+
+}
+
+.border{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 740px;
+}
+
+.border-btm{
+    position: absolute;
+    top: 710px;
+    left: 30px;
+}
+
+
+
+.background{
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    overflow: hidden;
+}
+
